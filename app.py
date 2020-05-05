@@ -8,7 +8,17 @@ def home():
 @app.route("/webhook",methods=["POST"])
 def get_callback():
     print(request.get_json())
-    return "hola"
+    return {
+  "fulfillmentMessages": [
+    {
+      "text": {
+        "text": [
+          "Text response from webhook"
+        ]
+      }
+    }
+  ]
+}
 
 
 
