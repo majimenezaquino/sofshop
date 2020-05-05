@@ -11,9 +11,15 @@ def get_callback():
     return {
   "fulfillmentMessages": [
     {
-      "text": {
-        "text": [
-          "Text response from webhook"
+      "card": {
+        "title": "Test desde webhook",
+        "subtitle": "card text",
+        "imageUri": "https://example.com/images/example.png",
+        "buttons": [
+          {
+            "text": "button text",
+            "postback": "https://example.com/path/for/end-user/to/follow"
+          }
         ]
       }
     }
