@@ -14,7 +14,7 @@ def get_callback():
       "card": {
         "title": "Test desde webhook",
         "subtitle": "card text",
-        "imageUri": "https://example.com/images/example.png",
+        "imageUri": "https://images-na.ssl-images-amazon.com/images/I/61tUTlPHb5L._AC_UX385_.jpg",
         "buttons": [
           {
             "text": "button text",
